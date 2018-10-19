@@ -1,8 +1,8 @@
 {
-  "name": "fill-in-name-here",
+  "name": "FILL-IN-NAME-HERE",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "webpack-dev-server --config src/config/webpack.dev.config.js --watch --mode development",
     "build": "webpack --config src/config/webpack.config.js --mode production",

@@ -19,6 +19,10 @@ and then
 $ npm install
 ```
 
+At the same time, make sure that you fill in all the `FILL-IN-` placeholders in
+`package.json`. Also do install `flow-bin` in your computer in order to run the flow
+type check.
+
 ## Development
 
 To develop this repo on your local machine, run
@@ -28,7 +32,7 @@ $ npm run dev
 ```
 
 This will open up port `9000` on your machine. If you want to change the port, go to `src/config/webpack.dev.config.js`.
-So now go to `localhost:9000/` on your browser, you can then see the page
+So now go to `localhost:9000/` on your browser, you can then see the page showing up.
 
 ## Build & Deploy
 
